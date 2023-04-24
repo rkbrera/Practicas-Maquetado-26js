@@ -1,0 +1,112 @@
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+    background-color:rgba(224,232,255,255);  
+    font-family:'Red Hat Display', sans-serif;    
+}
+
+*{
+    text-align: center;
+}
+
+.mycard{
+    background-color: hsl(225, 100%, 98%);
+    width: 450px;
+    height: 670px;
+    margin-top: 20px;
+    margin-left: 520px;
+    border-radius: 20px;    
+}
+
+.first_image{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+p{
+    font-size: 16px;
+    color: #7c8394;
+    font-weight: 500;
+    padding: 10%;
+    margin-top: -30px;
+}
+
+.mycard .order_summary--black{
+    font-weight: 970;
+    color: black;
+    font-size: 30px;
+}
+
+.mycard .second_paragraph{
+    margin-top: -80px;
+}
+
+.annual_plan{
+    background-color: #eef1ff;
+    width: 400px;
+    height: 84px;
+    border-radius: 10px;
+    margin-left: 26px;
+}
+
+.anualplan_image{
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.anualplan_price{
+    margin-top: -60px;
+    margin-right: 120px;
+    color: #7c8394;
+    list-style: none;
+}
+
+.anualplan_price > .price_pay {
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+
+.link_anualplan{
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: -28px; 
+}
+
+.pay_button{
+  width: 340px;
+  height: 45px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  margin-top: 24px;
+  border: 1px solid hsl(245, 75%, 52%);
+  padding: 10px;
+  box-shadow: 5px 10px 24px rgb(136, 132, 222);
+  cursor: pointer;
+  
+}
+
+.pay_button:hover{
+    background-color:green;
+}
+
+.cancel_order--button{
+    margin-top: 28px;
+    width: 340px;
+    height: 45px;
+    color: hsl(260, 5%, 46%);
+    font-weight: 800;
+    border-style: none;
+    background-color: hsl(225, 100%, 98%);
+    cursor: pointer;  
+    box-shadow: rgb(216, 132, 222);
+}
+
+.cancel_order--button:hover{
+    background-color:red;
+    color: #eef1ff;
+    border-radius: 10px;
+}
